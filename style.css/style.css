@@ -6,6 +6,9 @@
     
 }
 */
+
+
+
 body {
 
     background-color: #f4f4f4;
@@ -23,6 +26,7 @@ font: arial helvetica sans-serif 16px normal;
 line-height: 30px;
 margin: 0%;
 }
+
 a {
 
     text-decoration: none;
@@ -43,13 +47,27 @@ a:active {
 
 a:visited {
 
-    color: blue;
+    color: black;
 }
 .container {
 
     width: 80%;
     margin: auto;
 }
+
+
+.my-form input[type="submit"]{
+
+    background-color: #333;
+    color: #FFF;
+    padding: 10px 15px;
+    border: name;
+}
+.clr { 
+    clear: both;
+}
+
+
 
 .box-1 {
 
@@ -131,3 +149,109 @@ list-style: square;
     list-style-image: url('csscheatsheet/images/check.png');
 }
 
+.my-form {
+
+padding: 20px;
+
+
+}
+.my-form .form-group{
+
+    padding-bottom: 15px;
+}
+
+.my-form label{
+
+    display: block;
+}
+
+.myform input [type="text"], .my-form textarea{
+
+    padding: 8px;
+
+    width: 100%;
+}
+
+
+.block{
+
+    float:left ;
+    width: 33.3%;
+border: 1px solid #ccc;
+padding:10px;
+
+
+box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #FFF;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+position: relative;
+background-image: url('../images/bg.image.jpg');
+background-position: 100px 200px;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100%;
+}
+
+
+
+
+.p-box h1{
+    position: absolute;
+top: 40px;
+left: 200px;
+
+}
+.p-box h2{
+
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+    background-color: red;
+    color: whitesmoke;
+}
+.mylist li:first-child{
+
+    background: red;
+
+
+
+}
+.mylist li:last-child {
+
+    background: blue;
+
+
+}
+
+.mylist li :nth-child(5){
+
+    background: yellow;
+}
+
+.mylist li :nth-child(even){
+
+    background: grey;
+}
